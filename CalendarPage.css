@@ -1,0 +1,52 @@
+/* Style de la page Calendrier */
+.calendar-page {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .calendar-page h1 {
+    color: #1e88e5;
+    margin-bottom: 20px;
+  }
+  
+  .calendar-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Liste des rendez-vous */
+  .appointments-container {
+    text-align: left;
+    margin: 0 auto;
+    max-width: 600px;
+  }
+  
+  .appointments-container h2 {
+    color: #1e88e5;
+    margin-bottom: 10px;
+  }
+  
+  .appointments-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .appointment-item {
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .appointment-item p {
+    margin: 5px 0;
+  }
+  
+  .appointment-item strong {
+    color: #1e88e5;
+  }
+  
