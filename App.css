@@ -1,0 +1,93 @@
+/* Structure générale de l'application */
+.app-container {
+  display: flex;
+  flex-direction: column; /* Empile les éléments verticalement, sans sidebar */
+  height: 100vh; /* Prend la hauteur de l'écran */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.main-content {
+  flex: 1; /* Prend tout l'espace restant */
+  width: 100%; /* Utilise toute la largeur disponible */
+  padding: 20px;
+  background-color: #f5f5f5; /* Fond clair pour le contenu */
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Si vous avez un header global (par exemple, Navbar), vous pouvez ajuster sa taille */
+header {
+  padding: 10px 20px;
+  background-color: #1e88e5; /* Couleur de fond du header */
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Ajustements pour les pages comme les formulaires, calendriers, etc. */
+.page {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Pagination, espace pour les boutons ou les formulaires */
+button,
+input,
+select,
+textarea {
+  font-size: 1rem;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  width: 100%;
+}
+
+/* Formulaire pour Prendre Rendez-vous */
+.appointment-form {
+  width: 100%; /* S'assure que le formulaire prend toute la largeur */
+  display: flex;
+  flex-direction: column;
+}
+
+.appointment-form label {
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.appointment-form input,
+.appointment-form select,
+.appointment-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Conteneur des rendez-vous affichés */
+.appointments-list {
+  width: 100%;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Liste des rendez-vous */
+.appointments-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.appointments-list li {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}

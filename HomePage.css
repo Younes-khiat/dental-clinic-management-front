@@ -1,0 +1,158 @@
+/* Styles globaux */
+.homepage {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Section Hero */
+  .hero-section {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #1e88e5;
+    color: white;
+  }
+  
+  .hero-section h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  .hero-section .highlight {
+    color: #ffca28;
+  }
+  
+  .hero-section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero-section .cta-button {
+    background-color: #ffca28;
+    color: #1e88e5;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .hero-section .cta-button:hover {
+    background-color: #ffc107;
+  }
+  
+  /* Section Services */
+  .services-section {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .services-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .service-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .service-card img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+  }
+  
+  .service-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Section Explicative */
+  .about-section {
+    padding: 40px 20px;
+    background-color: #ffffff;
+    text-align: center;
+  }
+  
+  .about-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .about-section p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+  }
+  
+  .features {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .features li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  /* Section Footer CTA */
+  .cta-footer {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #1e88e5;
+    color: white;
+  }
+  
+  .cta-footer h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .cta-footer .cta-button {
+    background-color: #ffca28;
+    color: #1e88e5;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-footer .cta-button:hover {
+    background-color: #ffc107;
+  }
+  
+  /* Map */
+  .map {
+    margin-top: 20px;
+  }
+  
+  .map iframe {
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-section{
+    display: grid;
+    grid-template-columns: 3 1fr;
+
+  }

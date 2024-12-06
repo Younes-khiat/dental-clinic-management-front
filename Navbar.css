@@ -1,0 +1,92 @@
+/* Styles de la Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #1e88e5; /* Couleur bleue professionnelle */
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-brand h2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+  }
+  
+  .navbar-links li {
+    display: inline-block;
+  }
+  
+  .navbar-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-links a:hover {
+    color: #ffcc00; /* Couleur dorée au survol */
+  }
+  
+  /* Icône de profil */
+  .profile-icon {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+  }
+  
+  .profile-icon a {
+    color: white;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-icon .profile-text {
+    font-weight: 500;
+  }
+  
+  /* Icône de profil */
+  .profile-icon svg {
+    color: white;
+    cursor: pointer;
+  }
+  
+  .profile-icon:hover svg {
+    color: #ffcc00; /* Icône dorée au survol */
+  }
+  
+  /* Styles pour l'icône de profil dans la Navbar */
+.profile-icon {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+  }
+  
+  .profile-icon img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .profile-icon svg {
+    color: white;
+    cursor: pointer;
+  }
+  
+  .profile-icon:hover svg {
+    color: #ffcc00; /* Icône dorée au survol */
+  }
+  
