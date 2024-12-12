@@ -1,0 +1,96 @@
+/* Style général */
+.appointment-page {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .appointment-page h1 {
+    color: #1e88e5;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  /* Formulaire */
+  .appointment-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+  }
+  
+  .appointment-form label {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .appointment-form input,
+  .appointment-form select,
+  .appointment-form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .appointment-form textarea {
+    height: 80px;
+  }
+  
+  .appointment-form .btn-submit {
+    background-color: #1e88e5;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .appointment-form .btn-submit:hover {
+    background-color: #1565c0;
+  }
+  
+  /* Liste des rendez-vous */
+  .appointments-list {
+    text-align: left;
+  }
+  
+  .appointments-list h2 {
+    color: #1e88e5;
+    margin-bottom: 15px;
+  }
+  
+  .appointments-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .appointments-list li {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .appointments-list li p {
+    margin: 5px 0;
+  }
+  
+  /* Animations et transitions */
+  .appointment-form input:focus,
+  .appointment-form select:focus,
+  .appointment-form textarea:focus {
+    border-color: #1e88e5;
+    outline: none;
+  }
+  
